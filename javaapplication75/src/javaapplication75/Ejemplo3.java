@@ -16,12 +16,12 @@ public class Ejemplo3 {
 
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner entrada = new Scanner(System.in);
-        Random aleatorios = new Random();
+        Scanner entrada = new Scanner(System.in); // no uso
+        Random aleatorios = new Random(); // no uso
         int[] datos = new int[3];
         String[] rangos = {"0-100", "101-199", "200-adelante"};
         
-        int cantidad = 1000;
+        int cantidad = 99;
         if(cantidad <=100){
             datos[0] = datos[0] + 1;
         }else{

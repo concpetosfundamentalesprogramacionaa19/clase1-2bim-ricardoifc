@@ -21,7 +21,7 @@ public class ArregloTres {
         c = new int[12];
 
         System.out.printf("%s\t\t%s\n", "Indice", "Valor");
-
+            // uso en legth para comparar el contador
         for (int contador = 0; contador < c.length; contador++) {
             System.out.printf("%d\t\t%d\n", contador, c[contador]);
         }
